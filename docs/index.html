@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Резюме</title>
+    <script type="module" crossorigin src="/assets/index-C2QCHVlo.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-D3uEeBo-.css">
+  </head>
+  <body>
+    <div id="app">
+      <div class="container" >
+        <div id="content">
+        <div class="block">
+          <div class="profile">
+            <div class="profile-image box">
+              <label for="profileImage"> 
+              <img id="preview" src="/assets/profileImg-D1z8TBRf.jpg" alt="Фото профиля" />
+              </label>
+              <input type="file" id="profileImage"  accept="image/*" />
+            </div>
+                
+            <div class="greeting box">
+              <span class="greeting-text editable"  id="greeting" contenteditable>Hello 👋🏻 I’m</span>
+              <div class="profile-info">
+                <p class="profile__name editable" contenteditable>Karthik SR</p>
+                <p class="profile__role editable" contenteditable>UX/UI Designer</p>
+              </div> 
+            </div>
+          </div>
+          
+          <div class="languages box">
+            <h3>Languages</h3>
+            <div class="language-scales">
+              <div class="language-scale">
+                <p class="language-scale__title editable" contenteditable>English</p>
+               
+                <input type="range" id="slider" value='100' oninput="this.style.background = `linear-gradient(to right, #28D979 ${this.value}%, #F0F0F0 ${this.value}%)`">
+              </div>
+              <div class="language-scale">
+                <p class="language-scale__title editable" contenteditable>Malayalam</p>
+                <input type="range" id="slider" name="slider" min="0" max="100" value='100'  oninput="this.style.background = `linear-gradient(to right, #28D979 ${this.value}%, #F0F0F0 ${this.value}%)`"/>
+                
+              </div>
+              <div class="language-scale">
+                <p class="language-scale__title editable" contenteditable>Hindi</p>
+                <input type="range" id="slider" name="slider" min="0" max="100" value='80' style="background: linear-gradient(to right, #28D979 80%, #F0F0F0 20%)"  oninput="this.style.background = `linear-gradient(to right, #28D979 ${this.value}%, #F0F0F0 ${this.value}%)`"/>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="block ">
+          <div class="experience box">
+            <h3>Experience</h3>
+            <div class="job-list">
+              <div class="job-item last-job box-item">
+                <div class="job-header">
+                  <p class="job-date last editable" contenteditable>Jun. 2023 - Present </p>
+                  <div class="most-recent"></div>
+                </div>
+                <div class="job-info">
+                  <div>
+                    <p class="job__role editable" contenteditable>Marketing Manager </p>
+                    <div class="job__details">
+                      <p  class="job__activity last editable" contenteditable>Pankayam</p>
+                      <span class="divider last">|</span>
+                      <p class="job__schedule last editable"  contenteditable>Full-time</p>
+                    </div>
+                    
+                  </div>
+                  <div class="job-points">
+                    <ul>
+                      <li class="editable" contenteditable>Strategy development and planning of campaigns that promote the business and generate genuine traffic</li>
+                      <li class="editable" contenteditable>SEO Content Creation for Blogs, Website, Social media</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="job-item box-item">
+                <div class="job-header">
+                  <p class="job-date editable" contenteditable>2017 - Present</p>
+                </div>
+                <div class="job-info">
+                  <div>
+                    <p class="job__role editable" contenteditable>Graphic / Web designer </p>
+                    <p class="job__details editable" contenteditable>Freelance</p>
+                  </div>
+                  <div class="job-points">
+                    <ul>
+                      <li class="editable" contenteditable> Development of internal projects from scratch, product design of brands </li>
+                      <li class="editable" contenteditable> Landing page, webapps and hybrid apps</li>
+                      <li class="editable" contenteditable> Coordinating with outside agencies, art services, web designer, marketing, printers, and colleagues as necessary.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="job-item box-item">
+                <div class="job-header">
+                  <p class="job-date editable" contenteditable>Sep. 2021 - Jun. 2023</p>
+                </div>
+                <div class="job-info">
+                  <div>
+                    <p class="job__role editable" contenteditable>Legal Assistant </p>
+                    <div class="job__details">
+                      <p  class="job__activity editable" contenteditable>Law Firm</p>
+                      <span class="divider">|</span>
+                      <p class="job__schedule editable"  contenteditable>Intern</p>
+                    </div>
+                    
+                  </div>
+                  <div class="job-points">
+                    <ul>
+                      <li class="editable" contenteditable>Provide administrative support to lawyer and enhance office effectiveness</li>
+                      <li class="editable" contenteditable>Handle communication with clients, witnesses etc.</li>
+                      <li class="editable" contenteditable>repare case briefs and summarize depositions, interrogatories and testimony</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="tools box">
+            <h3>Tools</h3>
+            
+              <div class="tools-list">
+                <div class="tools-item box-item category design">
+                  <img id="preview" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAPCAYAAAAyPTUwAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEZSURBVHgBjZA9TsNAEIXfrO0oBZFCgUAUyB0SXcQBcIUQBQ0NbSpKlAoKQC6oSXwB4pKSggPYJ4AbACIFVHGRv8Y7GSt/ju1IftqVdt6+3Z1vCaLBxcGNBlxZ1pPaqu2junuEuSKZPj2/tKh/tmcblcoXUsqEF2oqw7IclNOJipm/S4ZDtf3eC5jRYmDToQjMnvTsm0n1VvthSuB4vh3Dvz3HpwK7SamJGO0uqHvFtkFYA/yvI2hfspP2SGsBBJzsu70dznmsDAEs6HVrTDlP6zhUzVcKoNcBD38h0LzwIgZ7f6fmDPD67mkGuOoQo8Z9Rxad9O1m9cO1KWNukpLhoKQknIeRbwoLw5PGQ8CgJYy05A2PH/2i8BSqQWGRUluUrQAAAABJRU5ErkJggg==" alt="logoFigma" />
+                  <img id="preview" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFpSURBVHgBnZM9SMNAGIbfpGlRpFIripWKLopQkAh1K7QOnRSpi+imoIOTdHQR7eKoo6Dg4FJc/AEXFQzoZilZnERRqEQqaCCB+kM8765Ygpak7TOE+3Lk+X5yJ4ARkANo9S3RVYpFcEYHIQqMrzXoqi7xV37vAX0mUCuCINNvZKoaFRCOJiCKF2gEkQyL1NaHRrEgS/a4ubsfnbGZ8l7JQPEqi883zdEh2gNPkx/B6BgIXfuCIUSWD6l0oLLnawv9E0jVrM9n2zzzUOacVxWIxNGVnOd7j/sZvOZOnAUsa3t0nGdlolByAS+0He10x7mFX8ITad5K4XgD5l0excssOmLTGEzv8dZcBbdbi7hZT/GsDPM+z2OrZHKR6wz+0ju1wmdhvRvQ6HzsCOgZmaVnYddNwv4Aq4BJKhAyJ+EbKjxwpep5IORBxNO1SitQUC/sQhVySnkGwsckiHeVLuKo5TYCR/C0bLLgB+lDcKy7aWHaAAAAAElFTkSuQmCC" alt="adobe photoshop" />
+                  <img id="preview" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEESURBVHgBnZO9DgFBFIXPLJVEIlEJka3QIauh2kRLQukF1CRq4gFEJ6HTSFQkHoAH8LMtDSqVSqLljiF2ZWNn9yt2Jjf3zDl7M8NAZADdB3TEFiH8x3gA8y3QZdStkvAIl9ABTV8U6L8dXcGAlEKrKtOciAHBgKWkKnaN9TIwbAFa4lubtIFS3tpnKy4XhJOW/NZGC2CzdxB/3HhzrWhNk4w7iEvkuiaHlSH+0Rz9F/9vIUdRI2ERnaNnKe5BQsxduLA1AG53IeRD6k1lxOS62onIH/SMGN7lKg40wzRgRmsFHlDomp3hDeN1t2nkSyZ500xUGf++H0eDtmkJ0YlE4zWN5glthjKzQ7Tz0gAAAABJRU5ErkJggg==" alt="adobe-illustrator" />
+                  <img id="preview" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEuSURBVHgBnZO/asJQFMa/a7MkXQq2m2CeoAQ66SAUl46dpNCWbgVdap6g8QnazUdoJynoA5R2yNJCMhWEYsSxFf8McdLruUf8g2A0/iDhnJt8N9+Xe68Ac/MAyDIVJrbjAZMK8PImSPhIQgexGZ8nSHiJvUjcaXS35m0qlYZhGFx3u/90/UWIhamttqWSjWTyeNFXq0/wvO+Ncm19oF6vodGooVgsI5+/QBiGsKwzdDptfu66n0vjm2YdjUJICXJywpMUCrfQdSP6y+rFbDbH9pVtXT/kcdu+x1bbzeYP5/T9L7acyeSAXTOrbK77gV04AE6deSMpZKv1y8u0ynA4YEdrBLTDrntUHCE+7+pve9gL6ZNYVBCfgA7Hs5jVVybFd6hIR2tEn0RtJQRegylG/1/iv9j1twAAAABJRU5ErkJggg==" alt="adobe-premiere" />
+                  <img id="preview" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAATCAYAAACdkl3yAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEpSURBVHgBpVSBTQMxDLygDpANyAhsQDagTMCzAUwATFA6AWIC2KBlA5iAbNBu0Pr0TpO3kqpqTzp94tgn27Lf4TR4w1/htnZw+h2EQXit96DM560hbc/C71osCnfCLxUc1FaLWdD+L1y0hPgwRx9BeaMxTxpDBqfGVRWwRulFFrDIJWb8zRpOSfhjAlJHgBiEDy2hT82qh4CS5cHv6kjAB8b6N5g29RVjK7wNiBibnRmrt5Y96D1joPCxjDJSlaHvOZ0itEQZwpdLhCjyqGfOTjxXiOAqrPW8uEQImhWz8z0hbnJqvOWAW4z9oc8bOpih9GBl3uYamFCm+d3cD3DVmY1k/feY/h7s3tn7HYWdEeavJKL0ojs3mO7f0gp5LcmjpJ8wXdbUUt0DiDROXakcvHIAAAAASUVORK5CYII=" alt="logoNotion" />
+                  <img id="preview" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAARCAYAAAAyhueAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGvSURBVHgBrZTNLwNBGMafd2ZWqWIdUEJTcRVpg7M2Po89CU7c3PwJ6iCOSMSJcBEHDg4SEpKukwOhkTgJ4aAkIllJJeh2166kzbbqox+/08wz7/tLdmfyEnKgHfKQTpDxB6TTrdSvKd/y7OCpr2vaNXYdFp44/sO7Dr9rIBG1ZyJbaBgURh44yEh/UddmKKC9ISqKEabwrYVkXsHnzeW4KKcgs8Ln3u6pQoWHH81eyckj5n8cT2UUmI37gg/75/bCgbb1mc6OvdtvBoN8BJpKbY9fXJh768YTr7LXBAV0Qz5qHMrojcQHFaW3Ssl2Jg5EwLzaL+lqrB7hmxbUecrgcGbWCRTAzE0zVmINP57nJV169GL3sRKXrxW/1jHkwYZoR6y6SSVGpZNaVNY4ZXdrA7jESye1sIT1njpIDinnObknzwNlvDxiD2s71lVRc6XmbAB57Xs9mdxhnIfSwdeTMkloiYxG3dBks/nPgWLBmFjUgSMGYz6doQScjWwvEGN+cxk1J5cqOIOqJ1E0J8Nb1qSyxBD3y/6oe/JiAgZ60hVJB+gfInNe3J2ObivZ+Sfh4X1qh8GD/QAAAABJRU5ErkJggg==" alt="logoMeet" />
+                </div>
+                <div class="tools-item box-item category no-code">
+                  <img id="preview" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAG1SURBVHgBrVS7TgJBFD2zUqkFne1ib6KdJSSYEChcv0CwN2JnYUKMjZWPLwC+QCx8JJKwfwDGHmjtttDCxDDeubOwK7O7kdWbzGZ3zt4z575GIMHkDjaxRMuCrTfg4QuueMYgzkcYJHlksYwjQupEkI3xG9M6Ew9oJRLKEimx0KNXG7+zMSYoiCc+gM2akZU5vP4CZOB/LfQ5NWGFKZTFKrV8nY1Est26XklKBa5Yoa9uZPyyZgMrVJMhFbQ5UhUGDnLAOkX34QFvY5OWVGaILPro01tNelII9hTZRU+THW6ZPgKOkBUqhAySajhHmTpkGNGKEgOVQ9sAilVN2G0B7xTeZQ0439NYt62xbQcRCm1B7SIN4D609eoGYSvFG/kAqxhzgQyxesZEKDWrWa2kuB+oUTnt3ACj2Mnz/juHrkWPu0in42bgrNpE5XIa+hQz7UX1Yd6fkp+Wrg9zevTKoKaDE3csV12Zqnq8tej2qWlCh4rySbkUKWdZ0izL0CyLDle6wMAfyNTn7PrijcVJB2Ey5ok8tIQqIY2EFCiitnjE9TwgkGB86Uq+mnSfTliJG1Y0b99jmaKdC3ny3QAAAABJRU5ErkJggg==" alt="logoZapier" />
+                  <img id="preview" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAATCAYAAACdkl3yAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAE5SURBVHgBzZS/T8JAFMe/LW44sKiMJDqpCZuLS9VEBh0IJI6Kq3HV0YTRREcTN/gHSBhYYKELCyxAwgaBkR8LA2Wk3ONBjqRcIC0kfIe+12+vn/veXVrNiNoBXUcCQADu1JlMkD3w+ZASN1F4kGC86F4hcxk6tqTdgMIXwPWVc9AqP2IAJ0cKUFA8SH4Cz0/Se3sFfpPAvSG9/x/g4x3qRNUGVwId+jlJ7IG90xBXAp6JPm8CvYECRA9GY+79AhS54Z684DH38UeuhSLUiWawPtfwOc9eKgP1eVJKSMlaHaDWWAOiQbOXLuXM3b5cMimTg0MOULPNlU6FllqqSBAlIq9gbgBabKAl9uXr2+n9pbBS2l3ctpcNOi3aGzoVy1J7a0FutZ/fmgnvSmt0vY3ZCVFCcKeh+EOmpwFOWuBDcXBRAAAAAElFTkSuQmCC" alt="logoWebflow" />
+                  <img id="preview" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAUCAYAAABWMrcvAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADZSURBVHgBldI/DoIwFAbw7xXUVW+Ag6OJHMFbmDggR3B0ko1RPQFsJuLsikfwACZwBEYnniWEqKRg+yX9n1+TvpTCJ2/AcGAQGxbuVCKVc0cXUdWFGTsmUFTdbkr5S8BlwkMH0fciyHg8YqTEWGijJrI4MRG8bnSW1VNkPYM3nyBXowszulJiixUd29sCfRE4IOG9GarCCNrwP1JAPdSChKijEAMUGMqmwDZu8OU0UhyecKVAdZ9AQrEcfRikflMNXdkKfVTD6rMudeBv9T4w10cNtCSkfmicN0FgRXm+clnCAAAAAElFTkSuQmCC" alt="logoFramer" />
+                  <img id="preview" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAASCAYAAAC9+TVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAItSURBVHgBfVTdcRpBDNYPk2cyNHCpIFQQjgpMBybvzgyuALuCQBoIVABUcAcpILiCXAPx3HtYKdKy6xwO431hb1f69H2fxCJcWf27HyURjAC1UIDCjlpUfRKSVbsYN6/j8SJ5VhWo/B1Bh3a1FYEn5tCGwH00UAueGOhWMdx3wbADMCTlyqqvBeTBgtr/GFoREpoB4i1i+Px7Md6+gMRL5Z+CYBU+reCNZbGlxW58LxjGVuzY8w9nYDRrPkE7+HKYBg5bOHFpNSIbBu2HXmgtoSbtfQX7TnkO9oEGs8PUD6Neho0BtFGKJTHrnFgrYbi14CZSUdl3iQ3uDhMShRtQWHoHInrgwn+9ahDYJc1lNtI6tMixoLoU0il5gF3UdrCO52SgeXFY5YruRQJvLHanoEfPQ8SP5AHw590vO8hOl5bQTwlWEY+RodCkI6NBhX2SWFCm5vQ7kqa5awoSAb2tGUGtepJ1NthuG6Ywzhq7khi4JJT7BP4iyfcui09cuCwyt3eSknysu5JUYRQHKvnlkrwbmAy3bt64LPJEb69Td3Tb12kG5pl+9ssleaLYHHm8nUxdFiW3l6S08eq5rTEAw/qVX8ZO3/s+/UUePd+Nhedvo5nG6lRZW2OCaW1TMnT9MqZHm9rK758Xo4dkbHZcxuD6zqNsE4z/AFySUJ0kzQFlH+PTungKUltLNj+MWXmWoD4r/SjF/LJn4PGC4TWQDpgnDtOn+9Fcex58/QVQgEW52sQaWQAAAABJRU5ErkJggg==" alt="logoWordpress" />
+                </div>
+                <div class="tools-item box-item category artificial-intelligence">
+                  <img id="preview" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANCSURBVHgBzVRJTFNRFD3vlyK0KlAsClSCGiUIKs4mMsggU0xcKAETF4IDGLfIwsQtGzVx5UTQhQsDiIQgEmIMQ0QgTCqiyKyWyTIUSim05X/vfyApU2J040n+z8v775137rnnfYYFZObnbAPYAzCEQIIGf4YJQKqwz9mv3z13tU+eYPIr63nuIVGUXtPQHX8HIxOF6Fspac1MkiSWVZDbIwH+y1d5qNcjxG8H1M7rMDgxjqa+zrUpmdSvkMQghTlQdxqMZSz/vp+Ikg+HQz9qwPi0GTu03ogLPggVkbur1DDPzsBqtzsybhTtQr0gSQhaoUy1HhG7gvGwugyVHa0YM5u42mnrDERJxK7NvrgWeQo+7p5LRSoQ4CQITJAcJqMD9yEmMATtw/0wWSxIOhyGnV4+KG6pQ9vAN7gonTFjs2KrRou00JPILs2jQ+YZ6K10whKyEPh5eqG0tRHebh60aRM8XNW4U14InYcW6REJVLILGvo68LazDaOmSVKpgX58dJFjCeHR7QG4X1mK7eTXwon8SQ2N5R7eq3gJo8WM2N0HcCMxGRbbLFfsiEVCxhjfPW6eAtPKeeKJgka9AfkN1UQ0TQrj8WVQj/K2ZpBXuEKK3clvRwi/BxQfOCkEvmCMSLdQKYHefugY1qN3ZJgOMuErkYmiiJQj4XBWKvGoqgxR5PmqhDIq2j/iwvEYiokJT2vfYKOLK/noxTu8wUUFnacWrf29GJ0ywcdNg5GpSa5UYGx1DweMYwgj09PDE9D0vRuFTTXYo/NHZtwZ6McMmLXZlqhxVa4jMmGxyysI7eIcdcyAkg/1iAzYi6z4s7CJdpS8r0ddTzvOH4ta9FZ2OTZoP92eLqzaFBnDk0boKKzyphfN73ipFqsVvjSXcSKRr5FvjXxbkimfNV2fUfapcRkhY/b5cIAH9hl19FJ4PDqG9KR2BHt12+BJnS5qqUXXzwF+iDc1LPtVHk/EcghU/6DjRK9hCDl05WRlch63UMB/kA2yTzL5xdA4XuZqZFzhnLOiWGGbMzKHX5e8uLytiY/dXFUI9vXnd1v+IRSRFd2GQawF7nBmQU4qJPYY/wgq4ibP4e2ky08gCMfIzyr8b/gFjlRF/dndOEUAAAAASUVORK5CYII=" alt="logoChatGPT" />
+                  <img id="preview" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALSSURBVHgB1ZPPaxNBFMffzP5INtukhfYQf1RWSkWEij0IvQgRRWmh/kCQqiDWv8B68daDF8WL1YvYi9aDVRAt3rxIoL0IYtWe1dVKG6FJk6bJZnd2Z3yzSZa01Z71wcvbyb732fedNwPwrxppXfRM57v1ZOKJqpAM5wBCCBAYOcbSXA5Ks8ugadSmSry/mO0vboaprYvyurgNlWpGQkA0YPKFG4AztwxmUoW4oVhU51eQNPFXWPL+0hGn6lyM2iUSI/AZgd+r0IYgI6UDb9OBGdpp2A5maCtXZRuUBEAhqEd0gl7LqxAzdQhSMWDtcfBNPWPezPVVxtMLf4R1xe0ThPAIUgfV14vr1gSl5sNBjVtHCZlUPaWbeernzutF2w/ALpWc0QuPd9ghLDN9N8OVbzvrXfGwm5bOsu9fXB6TeaPn316rFhLdVWHiVAzIi5iFn7Mo5w/w9WAI60z8HKKUg4LFoSNQbUSsehnta7B6kggPqGCgCRc8oeOQiNxXK5K53/hxmOLkmgAF5am4bypGxoNZmbN47l6vr6xZhAcIYgiqAROa1IFqSC6C7VNzlixugsIYpgn71PH5jzInZbhDzF8DjTCIcewKdPCFillUDv1TBOtRczZ+w2oFhRIJZJsSFdMZpi7K8zyIEQe7wuk2YHiw30SwXUpxLEG8R6rgXRrXdyvy2PtiiX9JTzkjA9bX5cQwTTnHRE0D4vkQl0BfQYgEKW5ZkGx0PltNvDpjQUHMwwrrgF8uuDkPVngKug70gnBVEB46wx58BAWhP01Ojl+StXQzjJydsSHPpqDi4zXi4HoA5h4DaNIB7K7h1TAq7fjc4Txv1m6BhVbwZqDIgJUDKJYFGHtpCwghMraHwHfmnVuvt9yADVYpf3DysYXCKu+LHzQhlg5A+DWUqAAwKVORMm1W00c2qIJtbH5gwDp0I73hv1otjj94l0ef2fDf2G9711yH+iH3awAAAABJRU5ErkJggg==" alt="logoCopilot" />
+                  <img id="preview" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGkSURBVHgB5ZRLL6NhFMd/L23ftN5WzIzptNOYxNzamRDqEhaIHQkJFiwsWFgIKx+CWIgvg7glEtdYuCxc6hZCtRa05VWqlYYnJBLShtKN+C+e8zxn8cv5n5PzSFeR6xuSpBSSqHcEOz720dPbz6HHS6LSPE1kZn7GajGzu7ePy7XBDRL/7HZsNsuzsJg2HQ47uTn/RXSwsblFd28fM7PzvBL2h8mpWWzfLdRUV1FRVsrQ0Chj4xOJw0xGI9Fo9O6enf0DnSxTWOgkcKqysLicGCwYDGJU0h7eDXW1pKRKRMJh0cdNkZFeDltdcwmrfx/ljIrCFzGcyspyBgaHY8I0sZIrqy48niPmhFW9Qc/JiQ9ZJxOOhFlfF5XFWUDp6W4euD0sLi1TVODk4vICv/8Ur/cIrU6LzxcQ/VRQRRvUs3OaGuv5Zv4aG6aq57R3dtHR3oZWq0GvN4iYyu9fPwmFQvcFiWNkbIKsLBslxQXxKxsYHBEAGbfbS8anDAJ+UUm6iTSDQUzyjHSTwvTMPM78PKxWM9vbO7S2NMe3+RZ9kC8oqboFsYmVjAWN3aQAAAAASUVORK5CYII=" alt="logoMidjourney" />
+                </div>
+              </div>
+            
+          </div>
+        </div>
+    
+        <div class="block">
+          <div class="education box">
+            <h3>Education</h3>
+            <div class="education-list">
+              <div class="education-item last box-item">
+                <div class="education-item__period last editable"><p contenteditable>2023</p></div>
+                <div class="education-item__title editable"><p contenteditable>UI/UX</p></div>
+                <div class="education-item__tags">
+                  <a href="#" class="education-item__link last">#UX</a>
+                  <a href="#" class="education-item__link last">#UI</a>
+                  <a href="#" class="education-item__link last">#research</a>
+                  <a href="#" class="education-item__link last">#DesignSystem</a>
+                  <a href="#" class="education-item__link last">#figma</a>
+                  <a href="#" class="education-item__link last">#Ux</a>
+                </div>
+                <div class="education-item__school editable"><p contenteditable>Coursrea</p></div>
+              </div>
+              <div class="education-item box-item">
+                <div class="education-item__period editable"><p contenteditable>2017-2022</p></div>
+                <div class="education-item__title editable"><p contenteditable>Law</p></div>
+                <div class="education-item__tags">
+                  <a href="#" class="education-item__link">#law</a>
+                  <a href="#" class="education-item__link">#legalStudies</a>
+                  <a href="#" class="education-item__link">#contracts</a>
+                  <a href="#" class="education-item__link">#internationalLaws</a>
+                </div>
+                <div class="education-item__school editable"><p contenteditable>University of Kerala</p></div>
+              </div>
+              <div class="education-item box-item">
+                <div class="education-item__period editable"><p contenteditable>2017</p></div>
+                <div class="education-item__title editable"><p contenteditable>Graphic design</p></div>
+                <div class="education-item__tags">
+                  <a href="#" class="education-item__link">#branding</a>
+                  <a href="#" class="education-item__link">#web</a>
+                  <a href="#" class="education-item__link">#illustration</a>
+                  <a href="#" class="education-item__link">#adobe</a>
+                </div>
+                <div class="education-item__school editable"><p contenteditable>Coursrea</p></div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="boxx">
+            <div class="interests box">
+              <h3>Interests</h3>
+              <div class="interests-list">
+                <span class="interests-item">branding</span>
+                <span class="interests-item">design</span>
+                <span class="interests-item">photography</span>
+                <span class="interests-item">artificial-intelligence</span>
+                <span class="interests-item">illustration</span>
+                <span class="interests-item">typography</span>
+                <span class="interests-item">social networks</span>
+                <span class="interests-item">research</span>
+                <span class="interests-item">dron pilot</span>
+                <span class="interests-item">games</span>
+              </div>
+            </div>
+    
+            <div class="contact">
+              <p class="editable" contenteditable>Let's chat! I'm ready to work on excinting projects</p>
+              <a href="mailto:mail@htmlacademy.ru" class="editable" contenteditable>srkarthik.designscape@gmail.com</a>
+            </div>
+            
+          </div>
+          
+        
+        </div>
+        </div>
+      <div class="block__download-btn">
+        <button class="download" id="print">Скачать в PDF </button>
+      </div>
+       
+        
+      </div>
+      
+    </div>
+    
+   
+    <!-- ./js/main.js -->
+  </body>
+</html>
