@@ -34,16 +34,20 @@ h3 {
 .block__download-btn{
   margin: 0 auto;
   text-align: center;
- 
 }
 .download {
   background-color: transparent;
   border: none;
   font-size: 10px;
   margin: 0;
-  padding: 0;
+  padding: 10px;
+  border-radius: 5px;
   text-align: center;
   cursor: pointer;
+  transition: background-color 1s ease-in;
+}
+.download:hover {
+  background-color: #28D979;
 }
 .block {
   display: flex;
@@ -58,12 +62,20 @@ h3 {
   border-radius: 12px;
   background-color: #F0F0F0;
   padding: 12px;
-  
+  transition: background-color 1s linear;
+}
+.box:hover {
+  background-color: rgba(160, 159, 159, 0.7);
 }
 .box-item {
   background-color: #fff;
   padding: 8px;
+  transition: all .2s ease-in-out;
 }
+.box-item:hover{
+  transform: scale(1.02);
+}
+
 .profile {
   display: flex;
   gap: 20px;
@@ -298,6 +310,15 @@ input[type=range]::-moz-range-thumb { /* Ползунок */
   gap: 16px;
   
 }
+.tools-item .box-item:hover {
+  animation: none;
+}
+.tools-item img{
+transition: all .2s ease-in-out;
+}
+#preview:hover{
+  transform: scale(1.5);
+}
 
 .category::before {
   content: '';
@@ -389,6 +410,11 @@ width: 268px;
   align-items: center;
   font-size: 10px;
   font-weight: 400;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+.interests-item:hover{
+  transform: scale(1.1);
 }
 /* блок chat */
 .contact{
@@ -423,6 +449,11 @@ width: 268px;
   overflow: hidden;
   border: none;
   
+}
+.editable:focus {
+  background-color: #def1636b;
+  border: none;
+  outline: none;
 }
 .wave {
   background:  rgba(129, 128, 128, 0.9);;
